@@ -8,3 +8,7 @@ Note: you may require system specific modules to be loaded if you work on a supe
 ```
 git clone https:/github.com/ejgurniak/GNN4CuZrMG
 ```
+### step 2: create a conda environment in which to run the code
+```
+conda env create --name gnn-mg -f environment.yml
+```
