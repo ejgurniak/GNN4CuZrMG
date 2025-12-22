@@ -34,7 +34,7 @@ python train.py ./datasets/2.2nm_simulation_cells/fold1 model_checkpoints log.mo
 #### explanation
 train.py: script to run training
 
-./datasets/2.2nm_simulation_cells/fold1: path to a folder with training samples
+./datasets/2.2nm_simulation_cells/240each/fold1: path to a folder with training samples
 
 note: make sure the number of samples in the folder equals train_size + val_size in custom_config.yaml
 
