@@ -26,3 +26,7 @@ Before running the code, a dataset of interest must be extracted, for example:
 ```
 tar -xzvf ./datasets/2.2nm_simulation_cells/240each/fold1.tar.gz
 ```
+to run the code:
+```
+python train.py ./datasets/2.2nm_simulation_cells/fold1 model_checkpoints log.model GANN heterogeneous
+```
