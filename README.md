@@ -21,7 +21,8 @@ conda activate gnn-mg
 ```
 pip install torch_geometric
 ```
-### running the code
+## running the code
+### training
 Before running the code, a dataset of interest must be extracted, for example:
 ```
 tar -xzvf ./datasets/2.2nm_simulation_cells/240each/fold1.tar.gz
@@ -44,3 +45,8 @@ log.model: text file that saves training loss, validation loss, validation accur
 GANN: tells code to run Graph Attention Network
 
 heterogeneous: tells code to do two-body re-scaling
+
+### prediction
+```
+python predict.py ./target ./model_checkpoints/model_best.pt GANN heterogeneous
+```
