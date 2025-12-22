@@ -22,3 +22,7 @@ conda activate gnn-mg
 pip install torch_geometric
 ```
 ### running the code
+Before running the code, a dataset of interest must be extracted, for example:
+```
+tar -xzvf ./datasets/2.2nm_simulation_cells/240each/fold1.tar.gz
+```
