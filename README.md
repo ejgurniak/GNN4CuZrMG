@@ -30,3 +30,17 @@ to run the code:
 ```
 python train.py ./datasets/2.2nm_simulation_cells/fold1 model_checkpoints log.model GANN heterogeneous
 ```
+#### explanation
+train.py: script to run training
+
+./datasets/2.2nm_simulation_cells/fold1: path to a folder with training samples
+
+note: make sure the number of samples in the folder equals train_size + val_size in custom_config.yaml
+
+model_checkpoints: name of folder where model checkpoints (model parameters) are saved
+
+log.model: text file that saves training loss, validation loss, validation accuracy
+
+GANN: tells code to run Graph Attention Network
+
+heterogeneous: tells code to do two-body re-scaling
