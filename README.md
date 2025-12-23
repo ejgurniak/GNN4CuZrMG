@@ -50,3 +50,5 @@ heterogeneous: tells code to do two-body re-scaling
 ```
 python predict.py ./target ./model_checkpoints/model_best.pt GANN heterogeneous
 ```
+
+Note: this code builds on the code found here: https://github.com/ejgurniak/GNN4MAT and here: https://github.com/sbanik2/CEGANN
