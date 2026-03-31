@@ -1,6 +1,6 @@
-# Usage: conda env create --name alt-cegan -f alt_environment.yml
+# Usage: conda env create --name gnn-mg -f environment.yml
 
-name: alt-cegan
+name: gnn-mg
 channels:
   - conda-forge
   - pytorch
