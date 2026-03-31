@@ -30,9 +30,13 @@ Before running the code, a dataset of interest must be extracted, for example:
 ```
 tar -xzvf ./datasets/2.2nm_simulation_cells/240each/fold1.tar.gz
 ```
+change directory to where the code is stored:
+```
+cd ./code
+```
 to run the code:
 ```
-python train.py ./fold1 model_checkpoints log.model GANN heterogeneous
+python train.py ../fold1 model_checkpoints log.model GANN heterogeneous
 ```
 #### explanation
 train.py: script to run training
