@@ -17,9 +17,12 @@ If the above does not work, try replacing "conda" with "mamba"
 ```
 conda activate gnn-mg
 ```
-#### step 4: add torch geometric package with pip
+#### step 4: ensure numpy and torch_geometric are correctly installed
 ```
-pip install torch_geometric
+pip install numpy==1.26.4
+```
+```
+pip install --no-deps torch_geometric
 ```
 ## running the code
 ### training
