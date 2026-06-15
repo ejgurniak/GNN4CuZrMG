@@ -71,8 +71,8 @@ for i in range(num_atom):
         num_Zr += 1
 
 # write to a new file
-file_out = open('test1026_12_py.POSCAR', 'w')
-file_out.write('2')
+file_out = open('test1026.POSCAR', 'w')
+file_out.write('label')
 file_out.write("\n")
 file_out.write('1.0')
 file_out.write("\n")
