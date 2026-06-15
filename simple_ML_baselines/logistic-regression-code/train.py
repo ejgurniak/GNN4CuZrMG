@@ -9,8 +9,7 @@ loss, validation loss and validation accuracy are reported.
 
 Example
 -------
-    python train.py ~/Desktop/research/analysis/CEGAN/Cu64Zr36_MG_samples/\\
-        Voronoi_analysis/samples_Voronoi_features/7by7by7/200each/fold1
+    python train.py ./fold1
 """
 import argparse
 import os
