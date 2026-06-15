@@ -9,3 +9,7 @@
 - "3": 10<sup>11</sup> K/s
 - "4": 10<sup>10</sup> K/s
 - "5": 10<sup>9</sup> K/s
+#### how to use dataset to replicate our train-val split
+- unzip all folders
+- put data in one folder
+- use the first 80 % for train, next 20 % for validation, set manually in custom_config.yaml. For example, in a dataset with 100 samples, put train_size: 80 and put val_size: 20 and put test_size: 0
