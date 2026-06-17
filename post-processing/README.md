@@ -1,3 +1,4 @@
 ### Scripts to analyze results
 - accuracy_and_conf_matrix.py: computes the accuracy (with and without limiting case) and the confusion matrix from a predictions.json (direct output of running predict.py) and a list of labels (labels.txt). The file labels.txt contains the true labels from the testing dataset in order, one label per line. There is no shuffle in predict.py, so the true labels are in the same order as predictions.json.
 - mutual_information.ipynb: calculates the mutual information from a confusion matrix. This also requires two files in the same directory: predictions.json (predicted labels and embeddings) and labels.txt (true labels in sequential order by sample index)
+- tSNE_notebook.ipynb: Generates t-SNE plot from predictions.json and labels.txt.
